@@ -13,8 +13,49 @@
     color: #f8f9fa;
     margin:0;
     padding: 0;
+    position: relative;
+    width: 100%;
+
 }
 
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+nav h2{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    color: #f8f9fa;
+}
+
+.nav-links{
+flex: 1;
+text-align: right;
+padding: 0;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a:hover{
+    color:#1abc9c;
+}
+
+.nav-links ul li a{
+    color: #f8f9fa;
+    text-decoration: none;
+    font-size: 13px;
+}
+/* 
 .top-bar h2{
     display: inline;
     padding: 2rem;
@@ -43,7 +84,7 @@
 width:4rem ;
 height:4rem;
 float: right;
-}
+} */
 
 .copyright{
     background-color: #212529;
