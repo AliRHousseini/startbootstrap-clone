@@ -4,121 +4,124 @@
 <link rel="stylesheet" href="./css/styles.css">
 <body>
 
-<!-- <div class="top-bar">
-    <div class="title">
-        <h2>Start Bootstrap</h2>
-    </div>
-    <div class="menu">
-        <a>Portfolio</a>
-        <a>About</a>
-        <a>Contact</a>
-    </div>
-</div> -->
-
 <section class="top-bar">
     <nav>   
         <a href="index.html"> <h2>start bootcamp</h2></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
             <ul>
                 <li><a href=""> portfolio</a></li>
                 <li><a href=""> about</a></li>
                 <li><a href=""> contact</a></li>
             </ul>
         </div>
+        <img class="icon" src="./images/icon.png" onclick="showMenu()"></img>
     </nav>
 </section>
 
 <section class="hero">
-    <img class="hero-image" src="./images/avataaars.svg">
-    <h1>Start bootstrap</h1>
-    <div class="star"> --- </div>
-    <p> graphic artist - web designer - illustrator</p>
+    <div class="center-box">
+        <img class="hero-image" src="./images/avataaars.svg">
+        <h1>Start bootstrap</h1>
+        <p> -------------- </p>
+        <p> graphic artist - web designer - illustrator</p>
+    </div>
 </section>
 
-<div class="portfolio">
+
+<section class="portfolio">
     <h2>Portfolio</h2>
-    <div class="star"></div>
-    <div class="portfolio-images">
-        <div class="add-image">
-            <img>
+    <h2> --------- </h2>
+    <div class="row-campus">
+        <div class="campus-col">
+            <img src="./images/cabin.png">
+            <div class="layer"></div>
         </div>
-        <div class="add-image">
-            <img>
+        <div class="campus-col" >
+            <img src="./images/cake.png">
+            <div class="layer"></div>
         </div>
-        <div class="add-image">
-            <img>
+        <div class="campus-col" >
+            <img src="./images/circus.png">
+            <div class="layer"></div>
         </div>
-        <div class="add-image">
-            <img>
+        <div class="campus-col">
+            <img src="./images/game.png">
+            <div class="layer"></div>
         </div>
-        <div class="add-image">
-            <img>
+        <div class="campus-col">
+            <img src="./images/safe.png">
+            <div class="layer"></div>
         </div>
-        <div class="add-image">
-            <img>
+        <div class="campus-col">
+            <img src="./images/submarine.png">
+            <div class="layer"></div>
         </div>
     </div>
-</div>
+</section>
 
 <div class="about">
     <h2>about</h2>
-    <div class="star"> --- </div>
-    <div class="about-content">
-        <div class="content-1">
+    <h2> ---------- </h2>
+    <div class="row">
+        <div class="about-col">
             <p>
                 Freelancer is a free bootstrap theme created by Start Bootstrap.
                 The download includes the complete source files including HTML, CSS,
                 and JavaScript as well as optional SASS stylesheets for easy customization.
             </p>
         </div>
-        <div class="content-2">
+        <div class="about-col">
             <p>
                 You can create your own custom avatar for the masthead,
                 change the icon in the dividers,
                 and add your email address to the contact form to make it fully functional!
             </p>
         </div>
-        <button>Free Download!</button>
     </div>
+    <button>Free Download!</button>
 </div>
 
 <div class="contact-me">
     <h2>Contact Me</h2>
-    <div class="star"></div>
+    <h2> --------- </h2>
     <form class="contact-form">
-        <input class="form-input" placeholder="Full name">
-        <input class="form-input" placeholder="Email address">
-        <input class="form-input" placeholder="Phone number">
-        <textarea class="form-textarea" placeholder="Message"></textarea>
+        <input class="form-input" placeholder="Full name" required>
+        <input class="form-input" placeholder="Email address" required>
+        <input class="form-input" placeholder="Phone number" required>
+        <textarea class="form-textarea" placeholder="Message" required></textarea>
         <button class="send">Send</button>
     </form>
 </div>
 
-<div class="footer">
-    <div class="location">
-        <h4>location</h4>
-        <p>
-            2215 John Daniel Drive
-            Clark, MO 65243
-        </p>
+<section class="footer">
+    <div class="row-footer">
+        <div class="footer-col">
+            <h4>location</h4>
+            <p>
+                2215 John Daniel Drive
+                Clark, MO 65243
+            </p>
+        </div>
+        <div class="footer-col">
+            <h4>around the web</h4>
+            <p>facebook twitter linkedIn</p>
+        </div>
+        <div class="footer-col">
+            <h4>about freelancer</h4>
+            <p>
+                Freelance is a free to use,MIT licensed<br>
+                Bootstrap theme created by 
+                <a>Start Bootstrap</a>.
+            </p>
+        </div>
     </div>
-    <div class="around-web">
-        <h4>around the web</h4>
-        <img>
-        <img>
-        <img>
-        <img>
-    </div>
-    <div class="freelancer">
-        <h4>about freelancer</h4>
-        <p>
-            Freelance is a free to use,MIT licensed 
-            Bootstrap theme created by 
-            <a>Start Bootstrap</a>.
-        </p>
-    </div>
-</div>
+</section>
 
 <div class="copyright">
     <p>Copyright © Your Website 2022</p>
 </div>
+
+<script src="./js/scripts.js"></script>
+
+</body>
+</html>
