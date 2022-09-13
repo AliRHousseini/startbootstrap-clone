@@ -337,3 +337,16 @@ width: 50%;
     padding: 20px;
     margin: auto;
 }
+
+.error{
+    background-color: red;
+    color: #f8f9fa;
+    font-weight: bold;
+    margin-top: 2rem;
+    padding: 20px;
+    font-size: small;
+}
+
+.error-display{
+    display: none;
+}

@@ -85,12 +85,13 @@
     <h2>Contact Me</h2>
     <h2> --------- </h2>
     <form class="contact-form">
-        <input class="form-input" placeholder="Full name" required>
-        <input class="form-input" placeholder="Email address" required>
-        <input class="form-input" placeholder="Phone number" required>
-        <textarea class="form-textarea" placeholder="Message" required></textarea>
-        <button class="send">Send</button>
+        <input id="name" placeholder="Full name" required>
+        <input id="email" placeholder="Email address" required>
+        <input id="phone" placeholder="Phone number" required>
+        <textarea id="message" placeholder="Message" required></textarea>
+        <button class="send" onclick="validate()">Send</button>
     </form>
+    <div class="error  error-display" id="error"></div>
 </div>
 
 <section class="footer">
