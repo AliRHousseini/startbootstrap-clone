@@ -350,3 +350,13 @@ width: 50%;
 .error-display{
     display: none;
 }
+
+
+.row-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-col{
+    width: 100%;
+}
